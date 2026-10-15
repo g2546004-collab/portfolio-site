@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Natsumu Abe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#top">Natsumu Abe</a>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <img src="media/19FC2E95-E043-4C89-8207-9A310D10FA5E.jpg" width="40%" alt="Profile Image">
+                <h1>
+                    Natsumu Abe<br>
+                    Portfolio
+                </h1>
+                <p id="weather-icon"> </p>
+            </section>
+            
+            <section id="about">
+                <h3>About</h3>
+                <p>
+                    阿部 和紡<br>
+                    東京都市大学 デザイン・データ科学部
+                </p>
+                <p>
+                    趣味：バスケ、ゲーム、散歩<br>
+                    特技：ラテアート
+                </p>
+            </section>
+
+            <section id="works">
+                <h3>Works</h3>
+                <div class="works-controls">
+                    <select id="category">
+                        <option value="all">すべてのカテゴリ</option>
+                    </select>
+                    <select id="sort">
+                        <option value="new">新しい順</option>
+                        <option value="old">古い順</option>
+                        <option value="title">タイトル順</option>
+                    </select>
+                </div>
+                <div id="works-grid"></div>
+            </section>
+        </main>
+        <footer>
+            <span>© 2026 Natsumu Abe</span>
+        </footer>
+        <script src="works.js"></script>
+    </body>
+</html>
